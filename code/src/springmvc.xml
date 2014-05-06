@@ -68,5 +68,7 @@
 			</value>
 		</property>
 	</bean>
+	
+	<bean class="org.shun.game.springcontextholder.ShunContext" lazy-init="false" />  
 
 </beans> 
